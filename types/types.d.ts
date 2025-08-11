@@ -9,7 +9,7 @@ declare module '@inertiajs/core' {
         form: typeof useForm;
     }
 }
-declare module 'vue' {
+declare module '@vue/runtime-core' {
     interface ComponentCustomProperties {
         $inertia: typeof router;
         $page: Page;
